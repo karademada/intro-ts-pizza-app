@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"serve": "vite preview"
+	},
+	"devDependencies": {
+		"vite": "^5.3.5",
+		"typescritp": "^1.0.0"
+	}
+}
