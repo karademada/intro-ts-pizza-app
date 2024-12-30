@@ -16,6 +16,11 @@ pnpm install
 npx vite --port=4000 
 ```
 
+run lint
+```bash
+pnpm lint
+```
+
 
 
 ## Sources
