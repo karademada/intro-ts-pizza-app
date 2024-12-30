@@ -1,7 +1,8 @@
 // Type assertions
 const friend = {}
 
-friend.name = 'John';
+//TODO: remove comment a error name doesn't exist
+//friend.name = 'John';
 
 interface Comedian {
     name: string;
@@ -36,7 +37,7 @@ class CreateUserRequestDTO {
     }
 }
 
-import { User } from "./user";
+import { User } from "../user";
 function createUser(request: CreateUserRequestDTO): User {
     return {
         id: 1,
@@ -44,4 +45,7 @@ function createUser(request: CreateUserRequestDTO): User {
         role: 'member'
     }
 }
+
+const actor = createUser(new CreateUserRequestDTO('1', 'toto@to.to', 'password'));
+console.log(actor);
 

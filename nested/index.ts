@@ -12,13 +12,13 @@ type Person = {
   address?: Address;
 };
 
-let person1: Person = {
+const person1: Person = {
   name: "John Doe",
   age: 30,
   isStudent: true,
 };
 
-let person2: Person = {
+const person2: Person = {
   name: "Jane Smith",
   age: 25,
   isStudent: false,
@@ -36,5 +36,5 @@ const printPerson = (person: Person) => {
 
 printPerson(person1)
 
-import { getPizzaDetail } from ".";
+import { getPizzaDetail } from "..";
 console.log(getPizzaDetail(''))

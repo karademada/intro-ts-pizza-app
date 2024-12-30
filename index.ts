@@ -82,3 +82,7 @@ export const getPizzaDetail = (
 /* addNewPizza({ name: "Meat Lovers", price: 12 });
 addNewPizza({  name: "Supreme", price: 11 });
 addNewPizza({  name: "BBQ Chicken", price: 11 }); */
+
+for (let i = 0; i < 10; i++) {
+  console.log(i)
+}
